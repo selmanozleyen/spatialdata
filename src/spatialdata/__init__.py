@@ -57,6 +57,9 @@ _LAZY_IMPORTS: dict[str, str] = {
     # _core.query.spatial_query
     "bounding_box_query": "spatialdata._core.query.spatial_query",
     "polygon_query": "spatialdata._core.query.spatial_query",
+    # _core.simpledata
+    "SimpleData": "spatialdata._core.simpledata",
+    "SimpleDataLayers": "spatialdata._core.simpledata",
     # _core.spatialdata
     "SpatialData": "spatialdata._core.spatialdata",
     # _io._utils
@@ -115,6 +118,9 @@ __all__ = [
     # _core.query.spatial_query
     "bounding_box_query",
     "polygon_query",
+    # _core.simpledata
+    "SimpleData",
+    "SimpleDataLayers",
     # _core.spatialdata
     "SpatialData",
     # _io._utils
@@ -204,6 +210,9 @@ if TYPE_CHECKING:
 
     # _core.query.spatial_query
     from spatialdata._core.query.spatial_query import bounding_box_query, polygon_query
+
+    # _core.simpledata
+    from spatialdata._core.simpledata import SimpleData, SimpleDataLayers
 
     # _core.spatialdata
     from spatialdata._core.spatialdata import SpatialData

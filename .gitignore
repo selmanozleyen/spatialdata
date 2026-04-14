@@ -54,3 +54,6 @@ node_modules/
 .mypy_cache
 .ruff_cache
 uv.lock
+xenium_explorer_annotations_gene.geojson
+spatialdata.zarr.zip
+issue
